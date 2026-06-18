@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+#Datasets
+EDA/pheme_mrp/data/*
+!EDA/pheme_mrp/data/.gitkeep
+
+EDA/narradetect_mrp/data/*
+!EDA/narradetect_mrp/data/.gitkeep
+
+*.csv
+*.parquet
+EDA/pheme_mrp/outputs/
+EDA/narradetect_mrp/outputs/
+
